@@ -33,16 +33,25 @@ By maintaining this repository, I aim to:
 ---
 
 ### 📂 **Repository Structure**  
-My-Learning-Repo/
-├── Programming/          # Coding exercises & projects
-│   ├── Python/
-│   ├── JavaScript/
-│   └── ...
-├── DevOps/               # Cloud, Docker, Kubernetes, CI/CD
-├── Cybersecurity/        # Ethical hacking, networking, security
-├── Notes/                # Structured notes (Markdown/PDF)
-├── Projects/             # Mini-projects & experiments
-└── README.md
+📦 My-Learning-Repo
+
+├── 📂 Programming/ # Coding exercises & projects
+
+│ ├── 🐍 Python/
+
+│ ├── ☕ JavaScript/
+
+│ └── ...
+
+├── 📦 DevOps/ # Cloud, Docker, Kubernetes, CI/CD
+
+├── 🔒 Cybersecurity/ # Ethical hacking, networking, security
+
+├── 📝 Notes/ # Structured notes (Markdown/PDF)
+
+├── 🛠️ Projects/ # Mini-projects & experiments
+
+└── 📜 README.md # You're here!
 
 ---
 
