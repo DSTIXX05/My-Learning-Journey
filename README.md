@@ -1,4 +1,4 @@
-📚 My Learning Journey
+#📚 My Learning Journey
 Repository for documenting my progress in IT & programming
 
 Welcome to my learning repository! Here, I document my journey in IT, programming, and related technologies. This repo serves as a knowledge base, a progress tracker, and a portfolio of my growth.
