@@ -16,7 +16,7 @@
 
 ## 🛠️ Architecture Components
 
-![VPC Architecture](media/image1.png)
+![VPC Architecture](./Images/lab2/image-1.png)
 
 ### Core AWS Services Used:
 
@@ -35,7 +35,7 @@
 
 - CIDR: `10.0.0.0/16`
 - Enabled DNS hostnames
-  ![VPC Setup](media/image3.png)
+  ![VPC Setup](./Images/lab2/image-2.png)
 
 ### 2. Subnet Configuration
 
@@ -44,19 +44,19 @@
 | **Public**  | 10.0.0.0/24 | ✅ Yes         | Web-facing resources |
 | **Private** | 10.0.2.0/23 | ❌ No          | Isolated backend     |
 
-![Subnet Design](media/image7.png)
+![Subnet Design](./Images/lab2/image-3.png)
 
 ### 3. Internet Gateway (IGW)
 
 - Attached to VPC
 - Route table directs public subnet traffic to IGW
-  ![IGW Attachment](media/image13.png)
+  ![IGW Attachment](./Images/lab2/image-4.png)
 
 ### 4. NAT Gateway
 
 - Placed in **public subnet** with Elastic IP
 - Private subnet route table points to NAT
-  ![NAT Setup](media/image29.png)
+  ![NAT Setup](./Images/lab2/image-5.png)
 
 ### 5. Security Groups
 
@@ -72,20 +72,20 @@
 1. **Public Instance**:
 
    - Accessed via HTTP: `http://<public-IP>`
-     ![Web Test](media/image25.png)
+     ![Web Test](./Images/lab2/image-6.png)
 
 2. **Private Instance**:
 
    - Connected via Session Manager
    - Verified outbound internet: `curl -I https://aws.amazon.com`
-     ![Session Manager](media/image27.png)
+     ![Session Manager](./Images/lab2/image-7.png)
 
 3. **Cross-Subnet Test**:
    - Public instance accessed private instance:
      ```bash
      curl 10.0.3.101  # Successful response
      ```
-     ![Private Access](media/image38.png)
+     ![Private Access](./Images/lab2/image-8.png)
 
 ---
 
@@ -104,4 +104,4 @@
 - [ ] Add a bastion host for enhanced private access
 - [ ] Test high availability with multi-AZ deployment
 
-[View Full Lab Screenshots](./media/) | [AWS VPC Docs](https://docs.aws.amazon.com/vpc/)
+[View Full Lab Screenshots](./Images/lab2/) | [AWS VPC Docs](https://docs.aws.amazon.com/vpc/)
