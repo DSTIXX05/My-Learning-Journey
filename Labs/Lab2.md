@@ -58,6 +58,8 @@
 - Private subnet route table points to NAT
   ![NAT Setup](./Images/lab2/image-5.png)
 
+---
+
 ### 5. Security Groups
 
 | Group          | Rules               | Purpose           |
