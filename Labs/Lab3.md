@@ -51,7 +51,7 @@ _ALB routes traffic to EC2 instances in private subnets_
 
 - **Source DB**: `us-east-1`
 - **Read Replica**: `us-west-2`  
-  ![](![alt text](./images/image-4.png))  
+  ![](![alt text](./Images/image-4.png))  
   _Enabled disaster recovery and read scaling across regions_
 
 ---
