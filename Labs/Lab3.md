@@ -76,4 +76,4 @@ _ALB routes traffic to EC2 instances in private subnets_
 | **EC2** | Hosts web application    |
 | **VPC** | Network isolation        |
 
-[View Full Lab Screenshots](./media/) | [AWS Documentation](https://docs.aws.amazon.com/)
+[View Full Lab Screenshots](./Images/lab3/) | [AWS Documentation](https://docs.aws.amazon.com/)
