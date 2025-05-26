@@ -13,7 +13,7 @@ Deploy a scalable web application with an RDS database backend, using an Applica
   - Storage: 20GB GP2
   - Connectivity: Placed in private subnets with a security group allowing EC2 instances
 - **Security**:  
-  ![](![alt text](./Images/image.png))  
+  ![](![alt text](./Images/lab3/image.png))  
   _Configured security groups to allow EC2 instances to connect to RDS on port 3306_
 
 ---
@@ -21,7 +21,7 @@ Deploy a scalable web application with an RDS database backend, using an Applica
 ### Task 2: Configure Application Load Balancer (ALB)
 
 **Architecture**:  
-![ALB Flow](![alt text](./Images/image-1.png))  
+![ALB Flow](![alt text](./Images/lab3/image-1.png))  
 _ALB routes traffic to EC2 instances in private subnets_
 
 1. **Target Group Creation**:
@@ -29,7 +29,7 @@ _ALB routes traffic to EC2 instances in private subnets_
    - Protocol: HTTP (Port 80)
    - Health checks: `/index.php` endpoint
    - Registered EC2 instances as targets  
-     ![](![alt text](./Images/image-2.png))
+     ![](![alt text](./Images/lab3/image-2.png))
 
 2. **ALB Setup**:
    - Scheme: Internet-facing
@@ -42,7 +42,7 @@ _ALB routes traffic to EC2 instances in private subnets_
 
 1. Accessed ALB DNS (`http://my-alb-1234567890.us-east-1.elb.amazonaws.com`)
 2. Verified web app connectivity to RDS:  
-   ![](![alt text](./Images/image-3.png))  
+   ![](![alt text](./Images/lab3/image-3.png))  
    _Successful query to RDS from the application_
 
 ---
@@ -51,7 +51,7 @@ _ALB routes traffic to EC2 instances in private subnets_
 
 - **Source DB**: `us-east-1`
 - **Read Replica**: `us-west-2`  
-  ![](![alt text](./Images/image-4.png))  
+  ![](![alt text](./Images/lab3/image-4.png))  
   _Enabled disaster recovery and read scaling across regions_
 
 ---
