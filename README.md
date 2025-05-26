@@ -8,7 +8,6 @@ Welcome to my learning repository! Here, I document my journey in IT, programmin
 
 - [📌 **About**](#-about)
 - [🎯 **Goals**](#-goals)
-<!-- - [📂 **Repository Structure**](#-repository-structure) -->
 - [🛠️ **Technologies & Tools**](#️-technologies--tools)
 - [📝 **Learning Resources**](#-learning-resources)
 - [📈 **Progress Log**](#-progress-log)
