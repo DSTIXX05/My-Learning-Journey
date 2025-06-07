@@ -10,10 +10,10 @@ A collection of hands-on labs completed while preparing for the AWS Solutions Ar
 
 | Lab                                 | Title                          | Key Services                  | Completion Date |
 | ----------------------------------- | ------------------------------ | ----------------------------- | --------------- |
-| [Lab 1](#lab-1-vpc-fundamentals)    | VPC Fundamentals               | VPC, EC2, IGW                 | MM/DD/YYYY      |
-| [Lab 2](#lab-2-ha-architecture)     | High Availability Architecture | ALB, Auto Scaling, RDS Aurora | MM/DD/YYYY      |
-| [Lab 3](#lab-3-load-balancing-rds)  | Load Balancing with RDS        | ALB, RDS, NAT Gateway         | MM/DD/YYYY      |
-| [Lab 4](#lab-4-multi-az-deployment) | Multi-AZ Deployment            | Multi-AZ RDS, NAT Gateway HA  | MM/DD/YYYY      |
+| [Lab 1](#lab-1-vpc-fundamentals)    | VPC Fundamentals               | VPC, EC2, IGW                 | 05/DD/2025      |
+| [Lab 2](#lab-2-ha-architecture)     | High Availability Architecture | ALB, Auto Scaling, RDS Aurora | 05/21/2025      |
+| [Lab 3](#lab-3-load-balancing-rds)  | Load Balancing with RDS        | ALB, RDS, NAT Gateway         | 05/26/2025      |
+| [Lab 4](#lab-4-multi-az-deployment) | Multi-AZ Deployment            | Multi-AZ RDS, NAT Gateway HA  | 05/31/2025      |
 
 ## 🔍 Detailed Lab Documentation
 
