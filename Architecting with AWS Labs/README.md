@@ -1,7 +1,7 @@
 # AWS Solutions Architect Labs Repository
 
 ![AWS Architecture](https://img.shields.io/badge/AWS-Certified%20Solutions%20Architect-orange?logo=amazon-aws)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/yourusername/your-repo)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/DSTIXX05/My-Learning-Journey)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 A collection of hands-on labs completed while preparing for the AWS Solutions Architect Associate certification. Each lab demonstrates key architectural concepts and AWS services.
@@ -26,7 +26,7 @@ A collection of hands-on labs completed while preparing for the AWS Solutions Ar
 - Internet Gateway configuration
 - Security Group management
 
-[View Full Documentation](./labs/Lab1-VPC-Fundamentals.md)  
+[View Full Documentation](./)  
 ![VPC Icon](https://img.icons8.com/color/48/000000/amazon-vpc.png)
 
 ---
@@ -40,7 +40,7 @@ A collection of hands-on labs completed while preparing for the AWS Solutions Ar
 - Auto Scaling configuration
 - Cross-AZ redundancy
 
-[View Full Documentation](./labs/Lab2-High-Availability.md)  
+[View Full Documentation](./Lab2.md)  
 ![HA Icon](https://img.icons8.com/color/48/000000/high-availability.png)
 
 ---
@@ -54,7 +54,7 @@ A collection of hands-on labs completed while preparing for the AWS Solutions Ar
 - RDS instance creation
 - NAT Gateway configuration
 
-[View Full Documentation](./labs/Lab3-Load-Balancing-RDS.md)  
+[View Full Documentation](./Lab3.md)  
 ![ALB Icon](https://img.icons8.com/color/48/000000/load-balancer.png)
 
 ---
@@ -68,7 +68,7 @@ A collection of hands-on labs completed while preparing for the AWS Solutions Ar
 - Redundant NAT gateways
 - Route table configuration
 
-[View Full Documentation](./labs/Lab4-Multi-AZ-Deployment.md)  
+[View Full Documentation](./Lab4.md)  
 ![Multi-AZ Icon](https://img.icons8.com/color/48/000000/multiple-devices.png)
 
 ## 🛠️ Repository Structure
