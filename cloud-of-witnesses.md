@@ -119,7 +119,7 @@ export const handler = async (event) => {
 
 Your app is hosted on:
 
-`https://<your-username>.github.io/cloud-of-witnesses/`
+`https://dstixx05.github.io/cloud-of-witnesses/`
 
 To deploy:
 
@@ -132,7 +132,7 @@ To deploy:
 
 🔐 **Security Recommendations**
 
-- Replace `"*"` in CORS settings with your GitHub Pages domain (e.g. `https://your-username.github.io`).
+- Replace `"*"` in CORS settings with your GitHub Pages domain (e.g. `https://dstixx05.github.io`).
 - Restrict IAM permissions strictly to `s3:PutObject` for the target bucket.
 - Rotate AWS keys periodically.
 
@@ -153,7 +153,6 @@ Delightsome Asolo
 📧 delightsomeasolo@gmail.com
 
 🔗 **LinkedIn**
-
 https://www.linkedin.com/in/delightsome-asolo/
 
 ---
