@@ -18,6 +18,8 @@ I created two EC2 instances:
 
 This architecture ensures that only the Bastion can reach the private instance — providing a secure, controlled access path.
 
+![alt text](./Images/bastion-host/Architecture.png)
+
 ---
 
 ## ⚙️ AWS Services Used
