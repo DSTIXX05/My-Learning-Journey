@@ -10,10 +10,11 @@ A collection of hands-on labs completed while preparing for the AWS Solutions Ar
 
 | Lab                                 | Title                          | Key Services                  | Completion Date |
 | ----------------------------------- | ------------------------------ | ----------------------------- | --------------- |
-| [Lab 1](#lab-1-vpc-fundamentals)    | VPC Fundamentals               | VPC, EC2, IGW                 | 05/DD/2025      |
-| [Lab 2](#lab-2-ha-architecture)     | High Availability Architecture | ALB, Auto Scaling, RDS Aurora | 05/21/2025      |
-| [Lab 3](#lab-3-load-balancing-rds)  | Load Balancing with RDS        | ALB, RDS, NAT Gateway         | 05/26/2025      |
-| [Lab 4](#lab-4-multi-az-deployment) | Multi-AZ Deployment            | Multi-AZ RDS, NAT Gateway HA  | 05/31/2025      |
+| [Lab 1](https://github.com/DSTIXX05/My-Learning-Journey/blob/main/Architecting%20with%20AWS%20Labs/Lab1.md)    | VPC Fundamentals               | VPC, EC2, IGW                 | 05/DD/2025      |
+| [Lab 2](https://github.com/DSTIXX05/My-Learning-Journey/blob/main/Architecting%20with%20AWS%20Labs/Lab2.md)     | High Availability Architecture | ALB, Auto Scaling, RDS Aurora | 05/21/2025      |
+| [Lab 3](https://github.com/DSTIXX05/My-Learning-Journey/blob/main/Architecting%20with%20AWS%20Labs/Lab3.md)  | Load Balancing with RDS        | ALB, RDS, NAT Gateway         | 05/26/2025      |
+| [Lab 4](https://github.com/DSTIXX05/My-Learning-Journey/blob/main/Architecting%20with%20AWS%20Labs/Lab4.md) | Multi-AZ Deployment            | Multi-AZ RDS, NAT Gateway HA  | 05/31/2025      |
+| [Delightsome-cloud](https://github.com/DSTIXX05/My-Learning-Journey/blob/main/Architecting%20with%20AWS%20Labs/delightsome-cloud.md) | Cloud-native storage app            | S3, Lambda  | 10/13/2025      |
 
 ## 🔍 Detailed Lab Documentation
 
