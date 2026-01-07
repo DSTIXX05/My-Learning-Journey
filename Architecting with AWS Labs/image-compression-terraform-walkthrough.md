@@ -44,14 +44,14 @@ This project focuses on automating the compression of `.jpg` images using AWS na
 
 I used Git for version control and configured a `.gitignore` file to prevent sensitive files and large build artifacts from being pushed to GitHub.
 
-## ![alt text](./images/image-compression-images/image1.png)
+## ![alt text](./Images/image-compression-images/image1.png)
 
 ## Provider Configuration
 
 The AWS provider was configured with the region set to `eu-west-1`.  
 This region represents an AWS geographical area containing multiple availability zones.
 
-## ![alt text](./images/image-compression-images/image2.png)
+## ![alt text](./Images/image-compression-images/image2.png)
 
 ---
 
@@ -63,7 +63,7 @@ Three buckets were provisioned:
 - **Destination Bucket** – for compressed images
 - **Failed Bucket** – for images that fail compression
 
-## ![alt text](./images/image-compression-images/image3.png)
+## ![alt text](./Images/image-compression-images/image3.png)
 
 All buckets use `force_destroy = true` to allow Terraform to delete them even when non-empty.
 
@@ -72,7 +72,7 @@ All buckets use `force_destroy = true` to allow Terraform to delete them even wh
 ## IAM Role and Policies
 
 An IAM role was created for the Lambda function. Roles allow AWS services to assume temporary permissions.
-![alt text](./images/image-compression-images/image4.png)
+![alt text](./Images/image-compression-images/image4.png)
 
 ### Policies Attached
 
@@ -80,7 +80,7 @@ An IAM role was created for the Lambda function. Roles allow AWS services to ass
 - `s3:PutObject` – Write images to destination and failed buckets
 - `sns:Publish` – Send email notifications
 - CloudWatch Logs permissions – Enable debugging and monitoring
-  ![alt text](./images/image-compression-images/image5.png)
+  ![alt text](./Images/image-compression-images/image5.png)
 
 ---
 
@@ -88,14 +88,14 @@ An IAM role was created for the Lambda function. Roles allow AWS services to ass
 
 Terraform’s `archive_file` data source is used to zip the Lambda code at runtime.  
 Unnecessary files such as `*.jpg` test files are excluded to reduce package size.
-![alt text](./images/image-compression-images/image6.png)
+![alt text](./Images/image-compression-images/image6.png)
 
 ---
 
 ## Lambda Layer (Pillow)
 
 Pillow dependencies must be compiled in a Linux environment to be compatible with AWS Lambda.
-![alt text](./images/image-compression-images/image9.png)
+![alt text](./Images/image-compression-images/image9.png)
 
 ### Build Process
 
@@ -103,7 +103,7 @@ Pillow dependencies must be compiled in a Linux environment to be compatible wit
 - The directory is zipped into `pillow-layer.zip`.
 - Terraform deploys this as a Lambda layer.
 
-![alt text](./images/image-compression-images/image10.png)
+![alt text](./Images/image-compression-images/image10.png)
 
 ### Docker Commands Used
 
@@ -127,14 +127,14 @@ docker rm pillow-temp
   - `DEST_BUCKET`
   - `FAILED_BUCKET`
   - `SNS_TOPIC_ARN`
-    ![alt text](./images/image-compression-images/image11.png)
+    ![alt text](./Images/image-compression-images/image11.png)
 
 ---
 
 ## Lambda Permissions
 
 An `aws_lambda_permission` resource allows S3 to invoke the Lambda function via event notifications.
-![alt text](./images/image-compression-images/image12.png)
+![alt text](./Images/image-compression-images/image12.png)
 
 ---
 
@@ -143,7 +143,7 @@ An `aws_lambda_permission` resource allows S3 to invoke the Lambda function via 
 - SNS topic created for notifications
 - Admin email subscribed via Terraform
 - Email value passed using `terraform.tfvars`
-  ![alt text](./images/image-compression-images/image13.png)
+  ![alt text](./Images/image-compression-images/image13.png)
 
 ---
 
@@ -216,17 +216,17 @@ def handler(event, context):
 ## Demo Results
 
 - Terraform successfully provisions all resources
-  ![alt text](./images/image-compression-images/image14.png)
-  ![alt text](./images/image-compression-images/image15.png)
+  ![alt text](./Images/image-compression-images/image14.png)
+  ![alt text](./Images/image-compression-images/image15.png)
 - Image upload triggers compression
-  ![alt text](./images/image-compression-images/image16.png)
+  ![alt text](./Images/image-compression-images/image16.png)
 - Average processing time: ~5 seconds
-  ![alt text](./images/image-compression-images/image17.png)
+  ![alt text](./Images/image-compression-images/image17.png)
 - Email notifications received
   ![alt text](image18
   .png)
 - Logs visible in CloudWatch
-  ![alt text](./images/image-compression-images/image19.png)
+  ![alt text](./Images/image-compression-images/image19.png)
 
 ---
 
