@@ -92,6 +92,8 @@ Here are some of the resources I'm using:
 - **June**: Intro to AWS, the well-architected framework.
 - **July**: Preps for SAA-C03.
 - **October**: Hands-on experience wih AWS.
+- **November**: Hands-on experience with Comprehend.
+- **December**: Started learning Terraform.
 
 ---
 
