@@ -65,7 +65,7 @@ Here are some of the technologies I'm learning:
 | Category      | Technologies/Tools               |
 | ------------- | -------------------------------- |
 | **Languages** | JavaScript, TypeScript, Python   |
-| **DevOps**    | AWS                              |
+| **DevOps**    | AWS, Terraform, Docker           |
 | **Databases** | MySQL, MongoDB                   |
 | **Other**     | Linux, Networking, Cybersecurity |
 
@@ -89,7 +89,9 @@ Here are some of the resources I'm using:
 
 - **May**: Started learning Typescript.
 
-_(I’ll keep this updated!🙃)_
+- **June**: Intro to AWS, the well-architected framework.
+- **July**: Preps for SAA-C03.
+- **October**: Hands-on experience wih AWS.
 
 ---
 
